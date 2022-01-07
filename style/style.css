@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  position: relative;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+nav a {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #222222;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+nav .navbar-brand {
+  position: absolute;
+  left: 50%;
+}
+
+nav .nav-item {
+  margin-right: 40px;
+  padding: 0 !important;
+}
+
+nav .nav-right-block {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-right-block a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+nav .nav-right-block a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+nav .nav-right-block .btn {
+  background-color: #09A66D;
+  border-radius: 8px;
+  padding: 10px 23px;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.introduce {
+  background-color: #F3FBF8;
+}
+
+.introduce h1 {
+  font-family: 'Rosario';
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  padding-top: 92px;
+  color: #222222;
+}
+
+.introduce .text-block {
+  max-width: 637px;
+  width: 100%;
+  margin: 20px auto 40px;
+}
+
+.introduce .text-block p {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #555555;
+}
+
+.introduce .order-block {
+  text-align: center;
+}
+
+.introduce .order-block a {
+  text-decoration: none;
+  color: #222222;
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  padding-right: 20px;
+  display: inline-block;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.introduce .order-block a img {
+  background-color: #09A66D;
+  border: 15px solid #09A66D;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+}
+
+.introduce .order-block a:hover {
+  -webkit-transform: rotate(360deg) scale(1.1);
+          transform: rotate(360deg) scale(1.1);
+}
+/*# sourceMappingURL=style.css.map */

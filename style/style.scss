@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+// font-family: 'DM Sans', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+// font-family: 'Rosario', sans-serif;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    position: relative;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    // background-color: #C9C9C9;
+    a{
+        font-family: 'DM Sans';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px; 
+        color: #222222; 
+        transition: 0.3s;
+    }
+    a:hover{
+        transform: scale(1.1);
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+    
+    }
+    .nav-item {
+        margin-right: 40px;
+        padding: 0 !important;
+    }
+    .nav-right-block{
+        align-items: center;
+        a{
+            margin-right: 30px;
+            text-decoration: none;
+            color: #fff;
+            transition: 0.3s;
+        }    
+        a:hover{
+            transform: scale(1.1);
+        }
+        .btn{
+            background-color: #09A66D;
+            border-radius: 8px;
+            padding: 10px 23px;
+            font-family: 'DM Sans';
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 20px; 
+            }
+    }
+}
+
+.introduce {
+    background-color: #F3FBF8;
+    h1{
+        font-family: 'Rosario';
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 90px;
+        padding-top: 92px ;
+        color: #222222; 
+    }
+    .text-block{
+        max-width: 637px;
+        width: 100%;
+        margin: 20px auto 40px;
+        p{
+            font-family: 'DM Sans';
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;        
+            align-items: center;
+            color: #555555; 
+        }
+    }
+    .order-block{
+        text-align: center;
+        a{
+            text-decoration: none;
+            color: #222222;
+            font-family: 'DM Sans';
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+            padding-right: 20px;
+            display: inline-block;
+            transition: 0.5s;
+            img{
+                background-color: #09A66D;
+                border: 15px solid #09A66D;
+                border-radius: 50%;
+                width: 64px;
+                height: 64px;
+            }
+        }
+        a:hover{
+            transform:  rotate(360deg) scale(1.1);
+        }
+        
+    }
+    
+}
