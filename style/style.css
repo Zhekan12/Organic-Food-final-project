@@ -40,15 +40,19 @@ nav .active-click {
   display: none;
 }
 
+nav .search-bar {
+  padding-right: 5px;
+}
+
 nav .search-bar .form-control {
   max-width: 150px;
   width: 100%;
 }
 
 nav .search-bar .btn {
-  max-width: 50px;
+  max-width: 60px;
   width: 100%;
-  padding: 5px 0;
+  padding: 5px 5px;
 }
 
 nav .nav-right-block {
