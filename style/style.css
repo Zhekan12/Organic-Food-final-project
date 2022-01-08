@@ -36,6 +36,21 @@ nav .nav-item {
   padding: 0 !important;
 }
 
+nav .active-click {
+  display: none;
+}
+
+nav .search-bar .form-control {
+  max-width: 150px;
+  width: 100%;
+}
+
+nav .search-bar .btn {
+  max-width: 50px;
+  width: 100%;
+  padding: 5px 0;
+}
+
 nav .nav-right-block {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -50,7 +65,22 @@ nav .nav-right-block a {
   transition: 0.3s;
 }
 
+nav .nav-right-block button {
+  margin-right: 25px;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: none;
+  background: #fff;
+}
+
 nav .nav-right-block a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+nav .nav-right-block button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
