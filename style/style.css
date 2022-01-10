@@ -100,7 +100,10 @@ nav .nav-right-block .btn {
 }
 
 .introduce {
-  background-color: #F3FBF8;
+  background-image: url("../images/leafs.png"), -webkit-gradient(linear, left top, right top, from(#F3FBF8), to(#F3FBF8));
+  background-image: url("../images/leafs.png"), linear-gradient(to right, #F3FBF8, #F3FBF8);
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 .introduce h1 {
@@ -157,5 +160,75 @@ nav .nav-right-block .btn {
 .introduce .order-block a:hover {
   -webkit-transform: rotate(360deg) scale(1.1);
           transform: rotate(360deg) scale(1.1);
+}
+
+.introduce .workload .vegetables-bg {
+  background-image: url("../images/vegetables-no-bg.png"), -webkit-gradient(linear, left top, right top, from(#F3FBF8), to(#F3FBF8));
+  background-image: url("../images/vegetables-no-bg.png"), linear-gradient(to right, #F3FBF8, #F3FBF8);
+  background-repeat: no-repeat;
+  background-position-x: 70px;
+  background-size: 85%;
+}
+
+.introduce .workload .item-block {
+  margin-top: 15px;
+  padding-bottom: 20px;
+}
+
+.introduce .workload .item-block .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 250px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 60px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.introduce .workload .item-block .item .item-image {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 25px;
+}
+
+.introduce .workload .item-block .item .item-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.introduce .workload .item-block .item .item-number .number {
+  display: inline-block;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+}
+
+.introduce .workload .item-block .item .item-number .item-name {
+  display: inline-block;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+
+.introduce .workload .item-block .item:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=style.css.map */

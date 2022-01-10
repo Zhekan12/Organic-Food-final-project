@@ -85,7 +85,11 @@ nav {
 }
 
 .introduce {
-    background-color: #F3FBF8;
+    // background-color: #F3FBF8;
+    background-image: url('../images/leafs.png'), linear-gradient(to right, #F3FBF8, #F3FBF8);
+    background-repeat: no-repeat;
+    background-position: top left ;
+
     h1{
         font-family: 'Rosario';
         font-weight: 700;
@@ -132,5 +136,62 @@ nav {
         }
         
     }
+    .workload{
+        .vegetables-bg{
+            background-image: url('../images/vegetables-no-bg.png'), linear-gradient(to right, #F3FBF8, #F3FBF8);
+            background-repeat: no-repeat;
+            background-position-x: 70px;
+            background-size: 85%;
+        }
+        .item-block{
+            margin-top: 15px;
+            padding-bottom: 20px;
+            
+            .item {
+                display: flex;
+                max-width: 250px;
+                width: 100%;
+                align-items: center;
+                margin-bottom: 60px;
+                transition: 0.5s;
+                .item-image{
+                    display: inline-block;
+                    width: 32px;
+                    height: 32px;
+                    margin-right: 25px;
+                }
+                .item-number{
+                    display: flex;
+                    flex-direction: column;
+                    .number{
+                        display: inline-block;
+                        font-family: 'DM Sans';
+                        font-weight: 400;
+                        font-size: 48px;
+                        line-height: 48px;
+                        text-align: center;
+                        color: #000000;
+                        margin: 0;
+                    }
+                    .item-name{
+                        display: inline-block;
+                        font-family: 'DM Sans';
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 30px;
+                        text-align: center;
+                        color: #000000;
+                    }
+                }
+    
+            }
+            .item:hover{
+                transform: scale(1.1);
+            }
+        }
+        
+
+    }
+    
     
 }
