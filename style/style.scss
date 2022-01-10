@@ -195,3 +195,57 @@ nav {
     
     
 }
+
+
+.strengths{
+    .strenghts-heading{
+        padding-top: 100px;
+        h2{
+            font-family: 'Rosario';
+            font-weight: 700;
+            font-size: 70px;
+            line-height: 90px;
+            color: #222222;
+        }
+        p{
+            font-family: 'DM Sans';
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px; 
+            color: #555555;
+            max-width: 637px;
+            width: 100%;
+        }
+    }
+    .strenghts-table{
+        .text-side{
+            .item{
+                display: flex;
+                align-items: center;
+                .item-image{
+                    margin-right: 44px;
+                }
+                .heading{
+                    font-family: 'DM Sans';
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #222222;
+                }
+                .text{
+                    font-family: DM Sans;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #555555;
+                    max-width: 277px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .image-side{
+        background-image: url('../images/delivery-guy.jpg');
+        background-repeat: no-repeat;
+    }
+}

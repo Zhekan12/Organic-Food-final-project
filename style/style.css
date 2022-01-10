@@ -231,4 +231,62 @@ nav .nav-right-block .btn {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
+
+.strengths .strenghts-heading {
+  padding-top: 100px;
+}
+
+.strengths .strenghts-heading h2 {
+  font-family: 'Rosario';
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  color: #222222;
+}
+
+.strengths .strenghts-heading p {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+  max-width: 637px;
+  width: 100%;
+}
+
+.strengths .strenghts-table .text-side .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.strengths .strenghts-table .text-side .item .item-image {
+  margin-right: 44px;
+}
+
+.strengths .strenghts-table .text-side .item .heading {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #222222;
+}
+
+.strengths .strenghts-table .text-side .item .text {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  max-width: 277px;
+  width: 100%;
+}
+
+.strengths .image-side {
+  background-image: url("../images/delivery-guy.jpg");
+  background-repeat: no-repeat;
+}
 /*# sourceMappingURL=style.css.map */
