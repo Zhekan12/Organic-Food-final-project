@@ -21,14 +21,34 @@
         margin-top: 10px;
         margin: auto;
     }
+    .strengths .text-side {
+        margin: auto;
+    }
+    .strengths .image-side {
+        padding-left: 20%;
+    }
+    .special{
+        margin-top: 440px;
+    }
 }
 @media only screen and (max-width: 767px) {
     .navbar-brand{
         display: block;
     }
+    .strengths .image-side {
+        padding-left: 10%;
+    }
+    .special{
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 420px) {
-
+    .strengths .image-side {
+        display: none;
+    }
+    .special{
+        margin-top: 0;
+    }
 }
 @media only screen and (max-width: 375px) {
 
