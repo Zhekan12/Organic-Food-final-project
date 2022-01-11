@@ -30,6 +30,12 @@
     .special{
         margin-top: 440px;
     }
+    .reviews{
+        text-align: center;
+    }
+    .reviews .ahmed-side {
+        margin-top: 400px;
+    }
 }
 @media only screen and (max-width: 767px) {
     .navbar-brand{

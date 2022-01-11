@@ -409,5 +409,100 @@ nav .nav-right-block .btn {
   font-size: 70px;
   line-height: 90px;
   padding-top: 96px;
+  margin-bottom: 30px;
+}
+
+.reviews p {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+  margin-bottom: 40px;
+}
+
+.reviews h3 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.reviews .owl-prev {
+  position: absolute;
+  z-index: 4;
+  left: 70%;
+}
+
+.reviews .owl-prev::before {
+  content: "\f053";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  font-size: 14px;
+  border-radius: 50%;
+  height: 56px;
+  color: #CCCCCC;
+  width: 100%;
+  padding: 23px 25px;
+  border: 1px solid #CCCCCC;
+}
+
+.reviews .owl-next {
+  position: absolute;
+  z-index: 4;
+  right: 0;
+}
+
+.reviews .owl-prev::before:hover {
+  background-color: #09A66D;
+}
+
+.reviews .owl-next::before {
+  content: "\f054";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  font-size: 14px;
+  border-radius: 50%;
+  height: 56px;
+  color: #CCCCCC;
+  width: 100%;
+  padding: 23px 25px;
+  border: 1px solid #CCCCCC;
+  background-color: #FFFFFF;
+}
+
+.reviews .star-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.reviews .star-block img {
+  max-width: 22px;
+  width: 100%;
+  display: inline-block;
+}
+
+.reviews .ahmed-side {
+  position: relative;
+}
+
+.reviews .ahmed-side .ahmed-photo {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.reviews .ahmed-side .people-rate {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  bottom: -10px;
+  left: 30px;
 }
 /*# sourceMappingURL=style.css.map */
