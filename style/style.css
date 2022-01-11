@@ -351,7 +351,8 @@ nav .nav-right-block .btn {
   background-image: url("../images/leafs.png"), linear-gradient(to right, #F3FBF8, #F3FBF8);
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 55%;
+  background-size: 70%;
+  padding-bottom: 150px;
 }
 
 .special .special-block .fruits-and-vegs {

@@ -291,6 +291,7 @@ nav {
 
 .special {
     background-color: #F3FBF8;
+    // padding-bottom: 100px;
     .special-block{
         
         padding-top: 90px;
@@ -298,7 +299,8 @@ nav {
             background-image: url('../images/leafs.png'), linear-gradient(to right, #F3FBF8, #F3FBF8);
             background-repeat: no-repeat;
             background-position: bottom right;
-            background-size: 55%;
+            background-size: 70%;
+            padding-bottom: 150px;
         }
         .fruits-and-vegs{
             max-width: 600px;
