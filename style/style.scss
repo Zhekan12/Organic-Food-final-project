@@ -244,7 +244,12 @@ nav {
                     width: 100%;
                 }
             }
+            .item:hover{
+                background-color: #F3FBF8;
+                transform: scale(1.1);
+            }    
         }
+        
     }
     .image-side{
         position: relative;
@@ -436,4 +441,124 @@ nav {
             left: 30px;
         }
     }
+}
+
+.download{
+    padding-top: 100px;
+    .image-block{
+        padding-top: 50px;
+        margin-right: 113px;
+    }
+    .text-block{
+        // margin-left: 113px;
+        .download-link{
+            display: inline-block;
+            background: #F3FBF8;
+            border-radius: 50px;
+            padding: 11px 24px;
+            text-decoration: none;
+            color: #333333;
+            transition: 0.4s;
+        }
+        .download-link:hover,.download-link:active{
+            transform: scale(1.1);
+            background: #222222;
+            color: #fff;
+        }
+        h2{
+            font-family: 'Rosario';
+            font-weight: 700;
+            font-size: 70px;
+            line-height: 90px;
+            color: #222222;
+            margin-top: 27px;
+        }
+        p{
+            font-family: 'DM Sans';
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #555555;
+            margin-top: 20px;
+        }
+        .app-link{
+            margin-top: 50px;
+            a{
+                display: inline-block;
+                margin-right: 24px;
+                transition: 0.4s;
+            }
+            a:hover{
+                transform: scale(1.1);
+            }
+            a:active{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+footer{
+    background: #FCFEFD;
+    margin-top: 130px;
+    padding-bottom: 120px;
+   .heading-block{
+    padding-top: 67px;
+    img{
+        display: inline-block;
+        margin-bottom: 30px;
+        transition: 0.5s;
+    }
+    img:hover,img:active{
+        transform:  rotate(360deg) scale(1.2);
+    }
+    p{
+        font-family: 'DM Sans';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #555555;
+    }
+   } 
+   .menu-block{
+    padding-top: 90px;
+    h4{
+        font-family: 'DM Sans';
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 31px;
+        color: #222222;
+        margin-bottom: 40px;
+    }
+    a{
+        display: block;
+        text-decoration: none;
+        font-family: 'DM Sans';
+        font-weight: n400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #555555;
+        margin-bottom: 24px;
+        transition: 0.4s;
+    }
+    a:hover,a:active{
+        transform: scale(1.05);
+        color: #222222;
+    }
+    .link-block{
+        .e-mail{
+            color: #222222;
+        }
+        a{
+            display: inline-block;
+            margin-right: 30px;
+        }
+        a:hover{
+            transform: scale(1.4);
+        }
+    }
+    
+   }
+   .menu-block:not(:last-child){
+    margin-right: 0px;
+}
 }

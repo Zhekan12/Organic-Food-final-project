@@ -290,6 +290,12 @@ nav .nav-right-block .btn {
   width: 100%;
 }
 
+.strengths .strenghts-table .text-side .item:hover {
+  background-color: #F3FBF8;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .strengths .image-side {
   position: relative;
 }
@@ -505,5 +511,151 @@ nav .nav-right-block .btn {
   z-index: 2;
   bottom: -10px;
   left: 30px;
+}
+
+.download {
+  padding-top: 100px;
+}
+
+.download .image-block {
+  padding-top: 50px;
+  margin-right: 113px;
+}
+
+.download .text-block .download-link {
+  display: inline-block;
+  background: #F3FBF8;
+  border-radius: 50px;
+  padding: 11px 24px;
+  text-decoration: none;
+  color: #333333;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.download .text-block .download-link:hover, .download .text-block .download-link:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: #222222;
+  color: #fff;
+}
+
+.download .text-block h2 {
+  font-family: 'Rosario';
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  color: #222222;
+  margin-top: 27px;
+}
+
+.download .text-block p {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+  margin-top: 20px;
+}
+
+.download .text-block .app-link {
+  margin-top: 50px;
+}
+
+.download .text-block .app-link a {
+  display: inline-block;
+  margin-right: 24px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.download .text-block .app-link a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.download .text-block .app-link a:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+footer {
+  background: #FCFEFD;
+  margin-top: 130px;
+  padding-bottom: 120px;
+}
+
+footer .heading-block {
+  padding-top: 67px;
+}
+
+footer .heading-block img {
+  display: inline-block;
+  margin-bottom: 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer .heading-block img:hover, footer .heading-block img:active {
+  -webkit-transform: rotate(360deg) scale(1.2);
+          transform: rotate(360deg) scale(1.2);
+}
+
+footer .heading-block p {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+}
+
+footer .menu-block {
+  padding-top: 90px;
+}
+
+footer .menu-block h4 {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #222222;
+  margin-bottom: 40px;
+}
+
+footer .menu-block a {
+  display: block;
+  text-decoration: none;
+  font-family: 'DM Sans';
+  font-weight: n400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #555555;
+  margin-bottom: 24px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+footer .menu-block a:hover, footer .menu-block a:active {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  color: #222222;
+}
+
+footer .menu-block .link-block .e-mail {
+  color: #222222;
+}
+
+footer .menu-block .link-block a {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+footer .menu-block .link-block a:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+footer .menu-block:not(:last-child) {
+  margin-right: 0px;
 }
 /*# sourceMappingURL=style.css.map */

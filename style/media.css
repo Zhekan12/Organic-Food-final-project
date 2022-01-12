@@ -2,6 +2,9 @@
     .navbar-brand{
         display: none;
     }
+    footer .link-block a{
+        margin-right: 10px;
+    }
 }
 @media only screen and (max-width: 992px) {
     .navbar-brand{
@@ -21,6 +24,9 @@
         margin-top: 10px;
         margin: auto;
     }
+    .strengths .strenghts-heading{
+        text-align: center;
+    }
     .strengths .text-side {
         margin: auto;
     }
@@ -35,6 +41,20 @@
     }
     .reviews .ahmed-side {
         margin-top: 400px;
+    }
+    .download .text-block{
+        text-align: center;
+        }
+    .download .row {
+        flex-direction: column-reverse;
+    } 
+    .download .image-block img{
+        padding-left: 40%;
+        height: 25vh;
+    }
+    footer{
+        text-align: center;
+        margin-top: 30px !important;
     }
 }
 @media only screen and (max-width: 767px) {
@@ -54,6 +74,10 @@
     }
     .special{
         margin-top: 0;
+    }
+    .download .image-block img{
+        padding-left: 35%;
+        height: 25vh;
     }
 }
 @media only screen and (max-width: 375px) {
