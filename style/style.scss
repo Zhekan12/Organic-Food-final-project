@@ -132,7 +132,7 @@ nav {
             }
         }
         a:hover{
-            transform:  rotate(360deg) scale(1.1);
+            transform: scale(1.1);
         }
         
     }
@@ -224,6 +224,7 @@ nav {
                 display: flex;
                 align-items: center;
                 margin-bottom: 100px;
+                transition: 0.4s;
                 .item-image{
                     margin-right: 44px;
                 }
@@ -347,7 +348,7 @@ nav {
                 }
             }
             a:hover{
-                transform:  rotate(360deg) scale(1.1);
+                transform:  scale(1.1);
             }
     }
 }}

@@ -158,8 +158,8 @@ nav .nav-right-block .btn {
 }
 
 .introduce .order-block a:hover {
-  -webkit-transform: rotate(360deg) scale(1.1);
-          transform: rotate(360deg) scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .introduce .workload .vegetables-bg {
@@ -266,6 +266,8 @@ nav .nav-right-block .btn {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 100px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .strengths .strenghts-table .text-side .item .item-image {
@@ -406,8 +408,8 @@ nav .nav-right-block .btn {
 }
 
 .special .special-block .explore-block a:hover {
-  -webkit-transform: rotate(360deg) scale(1.1);
-          transform: rotate(360deg) scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .reviews h2 {
